@@ -1,0 +1,5 @@
+dynamic programming - sub problem e vag kore merge koratree graph er diff --> tree er parent only ekta thakbestl er 4 ta part --> container algorithm functors iterator
+pair not a container
+in built --> vector
+not in built --> array
+vector size baray double kore
