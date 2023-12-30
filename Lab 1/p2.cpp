@@ -1,3 +1,8 @@
+/*Write a C++ program to verify that all of the letters in the second string appear in the first string as well. Return true otherwise false.
+Example:
+Original String elements: Python Py
+Check - First string contains all letters from second string: true
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
