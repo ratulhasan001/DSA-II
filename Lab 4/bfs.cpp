@@ -5,14 +5,14 @@ const int N = 1e5 + 5;
 vector < int > g[N];
 vector < bool > visited(N, false);
 
-void bfs(int s) {
+void bfs(int source) {
     queue < int > q;
-    q.push(s);
-    visited[s] = true;
+    q.push(source);
+    visited[source] = true;
     while (!q.empty()) {
         int parent = q.front();
         q.pop();
-        cout << parent << '\n';
+        cout << parent << ' ';
         for (int child : g[parent]) {
             if (!visited[child]) {
                 q.push(child);
@@ -34,7 +34,9 @@ int32_t main() {
         g[u].push_back(v);
         g[v].push_back(u); 
     }
-    bfs(1);
+    int source;
+    cin >> source;
+    bfs(source);
 
     return 0;
 }
