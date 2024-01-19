@@ -1,0 +1,26 @@
+DSA LAB REPORT
+Course Code: CSE 2213
+Course Title: Data Structure and Algorithms- II Sessional
+Experiment No: 01
+Experiment Name: Uses of STL (Vector)
+Experiment Date: 28/12/2023
+Submission Date: 04/01/2024
+
+Problem 1: Develop C++ program for some basic operations of vector.
+
+Problem 2: Write a C++ program to check whether numbers in a vector can be rearranged so that each number appears exactly once in a consecutive list of numbers. Return true otherwise false.
+Example:
+1 2 5 0 3 6 7
+Check consecutive numbers in the said vector! 0
+Problem 3: Write a C++ program to verify that all of the letters in the second string appear in the first string as well. Return true otherwise false.
+Example:
+Original String elements: Python Py
+Check - First string contains all letters from second string: true
+
+Problem 4: Write a C++ program that returns the elements in a vector that are strictly smaller than their adjacent left and right neighbors.
+Example:
+Original Vector elements:
+1250317
+Vector elements that are smaller than its adjacent neighbors:
+0
+1
