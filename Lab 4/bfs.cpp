@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//bfs
 const int N = 1e5 + 5;
 vector < int > g[N];
-bool visited[N];
+vector < bool > visited(N, false);
 
 void bfs(int s) {
     queue < int > q;
@@ -23,7 +22,9 @@ void bfs(int s) {
     }
 }
 
-int main() {
+int32_t main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
 
     int n, e;
     cin >> n >> e;
