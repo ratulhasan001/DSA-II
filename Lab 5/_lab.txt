@@ -1,0 +1,12 @@
+⚠DSA-II Lab Report⚠
+
+Course Code: CSE-2214
+Course Title: Data Structures and Algorithms-II Sessional
+Experiment No: 05
+Experiment Name: Merge Sort & DFS
+Experiment Date: 25-01-2024
+Submission Date: 01-02-2024
+
+Problem 1: Perform Merge Sort on an Array to Sort in Ascending Order
+Problem 2: Perform DFS on a Graph
+(All programs must have user input)
