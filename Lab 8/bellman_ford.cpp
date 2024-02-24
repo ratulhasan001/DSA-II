@@ -21,7 +21,7 @@ void bellman_ford(int source, vector < Edge > &g) {
             int a = ed.u;
             int b = ed.v;
             int w = ed.w;
-            if(dis[a] < w + dis[b]) {
+            if(dis[a] + w < dis[b]) {
                 dis[b] = dis[a] + w;
             }
         }
