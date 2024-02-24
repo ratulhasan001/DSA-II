@@ -3,7 +3,7 @@
 Course Code: CSE-2214
 Course Title: Data Structures and Algorithms-II Sessional
 Experiment No: 07
-Experiment Name: Implementation of Krushkal's Algorithm
+Experiment Name: Implementation of Kruskal's Algorithm
 
 Experiment Date: 08-02-2024
 Submission Date: 15-02-2024
